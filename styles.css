@@ -117,6 +117,28 @@ html {
     background: #CFFFCE;
 }
 
+.Text2Frame {
+    position: absolute;
+    width: 867px;
+    height: 129px;
+    left: calc(50% - 867px/2 + 0.5px);
+    top: 645px;
+    
+    background: #EFFFEA;
+}
+
+.Text3Frame {
+    position: absolute;
+    width: 231px;
+    height: 56px;
+    left: calc(50% - 231px/2 + 0.5px);
+    top: 543px;
+    
+    /* green */
+    
+    background: #CFFFCE;
+}
+
 .Text1 {
     position: absolute;
     width: 715px;
@@ -143,7 +165,7 @@ html {
     width: 867px;
     height: 126px;
     left: calc(50% - 867px/2 + 0.5px);
-    top: 648px;
+    top: 3px;
     
     font-family: Noto Sans JP;
     font-style: normal;
@@ -172,4 +194,26 @@ html {
     letter-spacing: 2.82px;
     
     color: #333333
+}
+
+.Text4 {
+    position: absolute;
+    height: 50px;
+    left: 0%;
+    right: 0%;
+    top: 7px;
+    
+    font-family: Noto Sans JP;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 22px;
+    /* or 45% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2.82px;
+    
+    color: #333333;
 }
