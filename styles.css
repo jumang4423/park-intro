@@ -1,0 +1,166 @@
+html {
+    position: relative;
+    height: 1446px;
+
+    background: #ffffff;
+}
+
+.Header {
+    position: fixed; /* ヘッダーの固定 */
+    height: 70px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: #ffffff;
+    z-index: 10;
+}
+
+.Title {
+    position: absolute;
+    height: 22px;
+    left: 1.88%;
+    right: 62.36%;
+    top: 23px;
+
+    font-family: Noto Sans JP;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 22px;
+
+    letter-spacing: 2.82px;
+    color: #333333;
+    text-decoration: none;
+}
+
+.Things {
+    position: absolute;
+    width: 268px;
+    height: 27px;
+    right: 14px;
+    top: 22px;
+}
+
+.GoUp {
+    position: absolute;
+    height: 27px;
+    left: 69.4%;
+    right: 6.72%;
+    top: 0.41px;
+
+    font-family: Fira Code;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 27px;
+
+    text-align: center;
+    color: #333333;
+    text-decoration: none;
+}
+
+.Access {
+    position: absolute;
+    height: 27px;
+    left: 32.46%;
+    right: 45.15%;
+    top: 1px;
+
+    font-family: Fira Code;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 27px;
+
+    text-align: center;
+    color: #333333;
+    text-decoration: none;
+}
+
+.park1 {
+    position: absolute;
+    width: 1140px;
+    height: 291px;
+    left: calc(50% - 1140px/2);
+    top: 99px;
+    
+    background: url(park1.png);
+}
+
+.park2 {
+    position: absolute;
+    width: 448px;
+    height: 448px;
+    left: calc(50% - 448px/2 - 180px);
+    top: 675px;
+    
+    background: url(park2.jpg);
+}
+
+.park3 {
+    position: absolute;
+    width: 448px;
+    height: 448px;
+    left: calc(50% - 448px/2 + 134px);
+    top: 899px;
+    
+    background: url(park3.jpg);
+}
+
+.Text1 {
+    position: absolute;
+    width: 715px;
+    height: 49px;
+    left: calc(50% - 715px/2 + 0.5px);
+    top: 450px;
+    
+    font-family: Noto Sans JP;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 22px;
+    /* or 45% */
+    
+    text-align: center;
+    letter-spacing: 2.82px;
+    
+    color: #333333;
+}
+
+.Text2 {
+    position: absolute;
+    width: 867px;
+    height: 126px;
+    left: calc(50% - 867px/2 + 0.5px);
+    top: 528px;
+    
+    font-family: Noto Sans JP;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 22px;
+    
+    letter-spacing: 2.82px;
+    
+    color: #333333;
+}
+
+.Text3 {
+    position: absolute;
+    width: 867px;
+    height: 37px;
+    left: calc(50% - 867px/2 + 0.5px);
+    top: 528px;
+    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 22px;
+    /* or 90% */
+    
+    text-align: center;
+    letter-spacing: 2.82px;
+    
+    color: #333333
+}
