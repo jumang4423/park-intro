@@ -1,6 +1,6 @@
 html {
     position: relative;
-    height: 1446px;
+    height: 1646px;
 
     background: #ffffff;
 }
@@ -79,9 +79,9 @@ html {
 
 .park1 {
     position: absolute;
-    width: 1140px;
-    height: 291px;
-    left: calc(50% - 1140px/2);
+    width: 600px;
+    height: 391px;
+    left: calc(50% - 600px/2);
     top: 99px;
     
     background: url(park1.png);
@@ -92,7 +92,7 @@ html {
     width: 448px;
     height: 448px;
     left: calc(50% - 448px/2 - 180px);
-    top: 675px;
+    top: 795px;
     
     background: url(park2.jpg);
 }
@@ -102,9 +102,19 @@ html {
     width: 448px;
     height: 448px;
     left: calc(50% - 448px/2 + 134px);
-    top: 899px;
+    top: 1019px;
     
     background: url(park3.jpg);
+}
+
+.Text1Frame {
+    position: absolute;
+    width: 718px;
+    height: 62px;
+    left: calc(50% - 718px/2 - 1px);
+    top: 546px;
+    
+    background: #CFFFCE;
 }
 
 .Text1 {
@@ -112,15 +122,16 @@ html {
     width: 715px;
     height: 49px;
     left: calc(50% - 715px/2 + 0.5px);
-    top: 450px;
+    top: 5px;
     
     font-family: Noto Sans JP;
     font-style: normal;
     font-weight: 300;
     font-size: 48px;
     line-height: 22px;
-    /* or 45% */
     
+    display: flex;
+    align-items: center;
     text-align: center;
     letter-spacing: 2.82px;
     
@@ -132,7 +143,7 @@ html {
     width: 867px;
     height: 126px;
     left: calc(50% - 867px/2 + 0.5px);
-    top: 528px;
+    top: 648px;
     
     font-family: Noto Sans JP;
     font-style: normal;
