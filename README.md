@@ -1,3 +1,0 @@
-# park introduction
-
-bruh
